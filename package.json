@@ -1,0 +1,10 @@
+{
+    "name": "exjade",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies":
+    {
+        "express": ">= 4.13.3",
+        "jade": ">= 1.11.0"
+    }
+}

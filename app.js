@@ -18,6 +18,7 @@ app.configure(function(){
   app.use(express.methodOverride());
   app.use(cors);
   app.use(app.router);
+  app.set('view options', {layout: false})
   app.use(express.static(__dirname + '/public'));
 });
 
